@@ -1,0 +1,480 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|c:\\users\\khue\\desktop\\net\\quannet\\quannet\\gui\\user\\choosecomputer.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\choosecomputer.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|c:\\users\\khue\\desktop\\net\\quannet\\quannet\\gui\\user\\choosecomputer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\choosecomputer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\dal\\computerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\dal\\computerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\dal\\rentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\dal\\rentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\bll\\rentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\bll\\rentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\user\\general.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\general.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\thongke.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\thongke.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\thongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\thongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\user\\naptien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\naptien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|c:\\users\\khue\\desktop\\net\\quannet\\quannet\\dto\\thongkedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\dto\\thongkedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\general.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\general.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\currrentcomputer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\currrentcomputer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\computermanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\computermanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\computermanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\computermanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\bll\\computerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\bll\\computerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\user\\naptien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\naptien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\login_regist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\login_regist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\user\\general.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\user\\general.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\login_regist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\login_regist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\quannet.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\quannet.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\regist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\regist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\regist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\regist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\quannet\\gui\\admin\\general.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D30F767-E8FA-43D3-AF29-8944B919ADBB}|QuanNET\\QuanNET.csproj|solutionrelative:quannet\\gui\\admin\\general.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChooseComputer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\ChooseComputer.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\ChooseComputer.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\ChooseComputer.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\ChooseComputer.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:55:56.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChooseComputer.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\ChooseComputer.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\ChooseComputer.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\ChooseComputer.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\ChooseComputer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T05:06:42.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "General.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\General.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\General.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\General.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\General.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:17:56.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "General.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\General.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\General.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\General.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\General.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:25:29.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Thongke.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\Thongke.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\Thongke.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\Thongke.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\Thongke.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:35:08.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RentBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\RentBLL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\BLL\\RentBLL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\RentBLL.cs",
+              "RelativeToolTip": "QuanNET\\BLL\\RentBLL.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:35:34.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComputerDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\ComputerDAL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\DAL\\ComputerDAL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\ComputerDAL.cs",
+              "RelativeToolTip": "QuanNET\\DAL\\ComputerDAL.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T15:52:57.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\Program.cs",
+              "RelativeDocumentMoniker": "QuanNET\\Program.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\Program.cs",
+              "RelativeToolTip": "QuanNET\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:53:57.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\RentDAL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\DAL\\RentDAL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\RentDAL.cs",
+              "RelativeToolTip": "QuanNET\\DAL\\RentDAL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T02:33:46.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\DAL\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "QuanNET\\DAL\\UserDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T16:14:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Thongke.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\Thongke.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\Thongke.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\Thongke.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\Thongke.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:24:23.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Naptien.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\Naptien.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\Naptien.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\Naptien.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\Naptien.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:50:08.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThongKeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DTO\\ThongKeDTO.cs",
+              "RelativeDocumentMoniker": "QuanNET\\DTO\\ThongKeDTO.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\DTO\\ThongKeDTO.cs",
+              "RelativeToolTip": "QuanNET\\DTO\\ThongKeDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:31:32.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CurrrentComputer.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\CurrrentComputer.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\CurrrentComputer.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\CurrrentComputer.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\CurrrentComputer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:20:01.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ComputerManager.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\ComputerManager.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\ComputerManager.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\ComputerManager.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\ComputerManager.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:25:47.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComputerBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\ComputerBLL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\BLL\\ComputerBLL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\ComputerBLL.cs",
+              "RelativeToolTip": "QuanNET\\BLL\\ComputerBLL.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:12:04.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Regist.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Regist.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Regist.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Regist.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\Regist.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:54:18.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "General.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\General.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\General.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\General.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\General.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwDEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:02:46.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ComputerManager.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\ComputerManager.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Admin\\ComputerManager.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Admin\\ComputerManager.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Admin\\ComputerManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:23:25.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\UserBLL.cs",
+              "RelativeDocumentMoniker": "QuanNET\\BLL\\UserBLL.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\BLL\\UserBLL.cs",
+              "RelativeToolTip": "QuanNET\\BLL\\UserBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:47:34.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuanNet.dbml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\QuanNet.dbml",
+              "RelativeDocumentMoniker": "QuanNET\\QuanNet.dbml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\QuanNet.dbml",
+              "RelativeToolTip": "QuanNET\\QuanNet.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2026-05-26T15:43:41.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login_Regist.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Login_Regist.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Login_Regist.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Login_Regist.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\Login_Regist.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:02:38.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "General.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\General.xaml.cs",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\General.xaml.cs",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\General.xaml.cs",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\General.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:06:52.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Naptien.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\Naptien.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\User\\Naptien.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\User\\Naptien.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\User\\Naptien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:29:43.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login_Regist.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Login_Regist.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Login_Regist.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Login_Regist.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Login_Regist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T14:59:59.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Regist.xaml",
+              "DocumentMoniker": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Regist.xaml",
+              "RelativeDocumentMoniker": "QuanNET\\GUI\\Regist.xaml",
+              "ToolTip": "C:\\Users\\Khue\\Desktop\\NET\\QuanNET\\QuanNET\\GUI\\Regist.xaml",
+              "RelativeToolTip": "QuanNET\\GUI\\Regist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T15:05:48.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 738,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

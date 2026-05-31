@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QUANNET1" Class="QuanNetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-DA5BPPC;Initial Catalog=QUANNET1;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="QuanNET.Properties.Settings" SettingsPropertyName="QUANNET1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Rent" Member="Rents">
+    <Type Name="Rent">
+      <Column Name="RentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ComputerID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RentTimeStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RentTimeEnd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TotalMoney" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="Account_Rent" Member="Account" ThisKey="UserID" OtherKey="AccountID" Type="Account" IsForeignKey="true" />
+      <Association Name="Computer_Rent" Member="Computer" ThisKey="ComputerID" OtherKey="ComputerID" Type="Computer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Account" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="AccountID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccountName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="AccountPassword" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="AccountPhone" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="AccountRole" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AccountBalance" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="Account_Rent" Member="Rents" ThisKey="AccountID" OtherKey="UserID" Type="Rent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Computer" Member="Computers">
+    <Type Name="Computer">
+      <Column Name="ComputerID" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ComputerName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ComputerStatus" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ComputerMoney" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Association Name="Computer_Rent" Member="Rents" ThisKey="ComputerID" OtherKey="ComputerID" Type="Rent" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="QuanNET.GUI.Admin.CurrrentComputer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanNET.GUI.Admin"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="750">
+
+    <Grid Background="White" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="5,0,5,0">
+            <TextBlock Text="🔍 Tìm kiếm máy:" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold" Margin="0,0,10,0" Foreground="#162A45"/>
+
+            <ComboBox x:Name="cbSearchComputer" Width="250" Height="32" 
+                  IsEditable="True" 
+                  IsTextSearchEnabled="False"
+                  StaysOpenOnEdit="True"
+                  VerticalContentAlignment="Center" FontSize="13"
+                  TextBoxBase.TextChanged="cbSearchComputer_TextChanged">   
+                <ComboBox.Text>
+                    <Binding Path="SearchText" UpdateSourceTrigger="PropertyChanged" TargetNullValue="Nhập tên máy để tìm..."/>
+                </ComboBox.Text>
+            </ComboBox>
+
+            <Button x:Name="btnClearFilter" Content="🔄 Làm mới" Width="90" Height="32" Margin="15,0,0,0" 
+                    Background="#F4F6F9" Foreground="#162A45" BorderBrush="#E2E8F0" FontWeight="SemiBold"
+                    Click="btnClearFilter_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="6"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="dgComputerList" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" IsReadOnly="True" Background="White" 
+                  BorderBrush="#E2E8F0" RowHeight="38" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#F4F6F9">
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#162A45"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="Padding" Value="10,8"/>
+                    <Setter Property="FontSize" Value="13"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã Máy" Binding="{Binding ComputerID}" Width="100"/>
+                <DataGridTextColumn Header="Tên Máy Tính" Binding="{Binding ComputerName}" Width="1.5*"/>
+
+                <DataGridTemplateColumn Header="Trạng Thái" Width="1.2*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="5,0,0,0">
+                                <Ellipse Width="8" Height="8" Fill="{Binding StatusColor}" Margin="0,0,8,0"/>
+                                <TextBlock Text="{Binding ComputerStatus}" Foreground="{Binding StatusColor}" FontWeight="SemiBold"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Header="Đơn Giá (Giờ)" Binding="{Binding PriceDisplay}" Width="1.2*"/>
+                <DataGridTextColumn Header="Tài Khoản Đang Chơi" Binding="{Binding CurrentUser}" Width="1.5*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

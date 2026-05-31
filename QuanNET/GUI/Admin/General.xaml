@@ -1,0 +1,68 @@
+﻿<Window x:Class="QuanNET.GUI.Admin.General"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanNET.GUI.Admin"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="950">
+
+    <Grid Background="#F4F6F9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#162A45" CornerRadius="0 20 20 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <TextBlock Text="ADMIN" Foreground="#00D2FF" FontSize="20" FontWeight="Bold" />
+                    <TextBlock Text="Bảng điều khiển hệ thống" Foreground="White" Opacity="0.6" FontSize="11" Margin="0,4,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Margin="12,10,12,0">
+                    <Button x:Name="btnCurrentComp" Content="🖥️  Xem Máy Hiện Tại" Height="45" Background="#1A1B2F" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="15,0,0,0" Margin="0,0,0,10" Click="btnCurrentComp_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button x:Name="btnManageComp" Content="⚙️  Quản Lý Máy Tính" Height="45" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="15,0,0,0" Click="btnManageComp_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button x:Name="btnRevenue" Content="📊  Thống Kê Doanh Thu" Height="45" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="15,0,0,0" Margin="0,0,0,10" Click="btnRevenue_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+
+                <Button Grid.Row="2" x:Name="btnLogout" Content="🚪  Đăng xuất" Height="40" Margin="12,0,12,12" Background="#FF4C4C" Foreground="White" FontWeight="SemiBold" BorderThickness="0" Click="btnLogout_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Border>
+
+        <Border Grid.Column="1" Background="White" CornerRadius="20" Margin="20" Padding="15">
+            <ContentControl x:Name="MainContentPanel"/>
+        </Border>
+    </Grid>
+</Window>

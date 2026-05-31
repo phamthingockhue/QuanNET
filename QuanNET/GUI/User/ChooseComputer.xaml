@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="QuanNET.GUI.User.ChooseComputer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanNET.GUI.User"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Background="White" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Center">
+            <TextBlock Text="Vui lòng chọn một máy tính trong danh sách dưới đây:" FontSize="15" FontWeight="SemiBold" Foreground="#162A45"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="dgChooseComp" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" IsReadOnly="True" Background="#F4F6F9" 
+                  BorderBrush="#E2E8F0" RowHeight="38" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#E2E8F0"
+                  SelectionChanged="dgChooseComp_SelectionChanged">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã Máy" Binding="{Binding ComputerID}" Width="100"/>
+
+                <DataGridTextColumn Header="Tên Máy Tính" Binding="{Binding ComputerName}" Width="1.5*"/>
+
+                <DataGridTextColumn Header="Trạng Thái" Binding="{Binding ComputerStatus}" Width="1.2*"/>
+
+                <DataGridTextColumn Header="Đơn Giá" Binding="{Binding ComputerMoney}" Width="1.2*"/>
+
+                <DataGridTextColumn Header="Tài Khoản Đang Chơi" Binding="{Binding CurrentUser}" Width="1.5*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Button x:Name="btnStartPlay" Content="🎮 BẮT ĐẦU CHƠI MÁY NÀY" Height="42" 
+                    Background="#28A745" Foreground="White" FontWeight="Bold" FontSize="14"
+                    Click="btnStartPlay_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="6"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button x:Name="btnStopPlay" Content="🛑 NGỪNG SỬ DỤNG MÁY NÀY" Height="42" 
+                    Background="#DC3545" Foreground="White" FontWeight="Bold" FontSize="14"
+                    Visibility="Collapsed"
+                    Click="btnStopPlay_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="6"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

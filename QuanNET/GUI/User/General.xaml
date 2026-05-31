@@ -1,0 +1,64 @@
+﻿<Window x:Class="QuanNET.GUI.User.General"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanNET.GUI.User"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="900">
+
+    <Grid Background="#F4F6F9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#162A45">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <TextBlock Text="Keiri_NET" Foreground="#00D2FF" FontSize="24" FontWeight="Bold"/>
+                    <TextBlock Text="Màn hình hội viên" Foreground="White" Opacity="0.6" FontSize="12"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Margin="20,0,20,20"/>
+
+                <StackPanel Grid.Row="2" Margin="12,10,12,0">
+                    <Button x:Name="btnChooseComp" Content="🎮  Chọn Máy Để Chơi" Height="45" Background="#1A1B2F" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="15,0,0,0" Margin="0,0,0,10" Click="btnChooseComp_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button x:Name="btnDepositMoney" Content="💵  Nạp Tiền Vào TK" Height="45" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="15,0,0,0" Margin="0,0,0,10" Click="btnDepositMoney_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+
+                <Button Grid.Row="3" x:Name="btnUserLogout" Content="🔒 Đăng Xuất &amp; Trừ Tiền" Height="40" Margin="12,0,12,12" Background="#DC3545" Foreground="White" FontWeight="Bold" Click="btnUserLogout_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="6"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Border>
+
+        <Border Grid.Column="1" Background="White" Margin="20" CornerRadius="15">
+            <ContentControl x:Name="UserMainContentPanel" Margin="15"/>
+        </Border>
+    </Grid>
+</Window>
